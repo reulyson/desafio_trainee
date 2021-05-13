@@ -6,7 +6,7 @@ def menu():
           '\33[32m1 - Questão 1\33[m\n'
           '\33[32m2 - Questão 2\33[m\n'
           '\33[32m3 - Questão 3\33[m\n'
-          '\33[32m0 - Encerrar questões\33[m'.center(137))
+          '\33[32m0 - Encerrar questões\33[m')
 
 print('\33[34mDesafio Trainee Bemol\33[m')
 menu()
@@ -31,4 +31,3 @@ while True:
     else:
         print('\33[31mOpção invalida\33[m')
         menu()
-
