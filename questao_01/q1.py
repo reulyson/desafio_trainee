@@ -1,3 +1,5 @@
+#Qual o valor médio de PIB per capita da cidade de Manaus no período que abrange o dataset?
+
 #armazenamento do dataset em uma lista e semparando sempre que encontrar um ';'
 arquivo = open('dataset/pib_municipio_2010_a_2018.txt', 'r', encoding='utf-8')
 conteudo = arquivo.readlines()
@@ -6,8 +8,8 @@ arquivo.close()
 
 #criando função para chamar no main
 def media():
-#criando uma lista com todo o contudo, se linha [3] - referente a municipio - for manaus
-#e esta adcionando a lista todos o contuado a ultima linha referente a percapita, e tratando quebras de linhas e espaços vazios
+#criando uma lista com todo o contudo, se linha [3] - referente a municipio - for manaus.
+#e esta adcionando a lista todos o conteudo da ultima linha referente a per capita, e tratando quebras de linhas e espaços vazios
     pib = []
     for linha in conteudo_list[1:]:
         if linha[3] == 'Manaus':
