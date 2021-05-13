@@ -8,9 +8,11 @@ dataset?
 adicionado bruto total médio no estado do Amazonas no ano de 2018?
 
 ###### Seguindo as observações de não poder usar bibliotecas numpy, pandas e etc
+###### Foi utilizando a versão do Python 3.9.5.
+###### O script foi desenvlvido usando o SO Windows 10 
 
 ## Resolução da primeira questão
-blablablabla fiz isso e aquilo para poder chegar ao resultado
+
 - [x] Primeira questão respondida
 
 ## Resolução da segunda questão
