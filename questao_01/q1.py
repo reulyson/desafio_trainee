@@ -20,6 +20,6 @@ def media():
     print("Média percapita de Manaus:\nR${:.2f}".format(media))
 
 #criando arquivo de saida_q1 e escrevendo conteudo
-    with open('questao_01/saida_q1.txt', 'w') as file:
+    with open('questao_01/saida_q1.txt', 'w', encoding="utf-8") as file:
         file.write("Média percapita de Manaus:\nR${:.2f}".format(media))
     file.close()

@@ -51,6 +51,6 @@ def ranking():
     for r in dict_estados:
         print(r)
 
-    with open('questao_02/saida_q2.txt', 'w') as file:
+    with open('questao_02/saida_q2.txt', 'w', encoding='utf-8') as file:
         file.write("Ranking de estados por média de PIB per capita no ano de 2010:\n{}".format(dict_estados))
     file.close()
