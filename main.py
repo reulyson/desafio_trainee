@@ -1,6 +1,6 @@
-from questao_1 import q1
-from questao_2 import q2
-from questao_3 import q3
+from questao_01 import q1
+from questao_02 import q2
+from questao_03 import q3
 def menu():
     print('\nEscolha a baixo qual questão você deseja!\n'
           '\33[32m1 - Questão 1\33[m\n'
@@ -22,7 +22,7 @@ while True:
         menu()
 
     elif opcao == '3':
-        print('Atividade')
+        q3.proporcao()
         print('\nProxima questão\n')
         menu()
     elif opcao == '0':
