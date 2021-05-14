@@ -31,9 +31,10 @@ def ranking():
 # reordenando dicionario pelo maior valor
     dict_estados = dict(sorted(dict_estados.items(), key=lambda item: item[1], reverse=True))
 
-    for r in dict_estados:
-        print(r)
-
+    print("Ranking de estados por média de PIB per capita no ano de 2010:")
+    for i, r in enumerate(dict_estados):
+        print(f'{i+1}° - {r}')
+        
     with open('questao_02/saida_q2.txt', 'w', encoding='utf-8') as file:
         file.write("Ranking de estados por média de PIB per capita no ano de 2010:\n{}".format(dict_estados))
     file.close()
