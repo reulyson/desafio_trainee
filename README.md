@@ -81,4 +81,6 @@ Para resolver esta questão precisei utilizar a mesma dinâmica utilizada na pri
 
 De início importei o cada uma das questões, e defini uma função chamada menu para ser chamada nos blocos de cada questão, os scripts das questões também foram definidos como função. Depois criei um loop que me permitia percorrer opções para cada questão e uma para encerrar o programa, para cada bloco  da questão fiz a chamada da função referente à questão escolhida e logo após a função menu para permitir seguir o loop, repetir isso para todas as outras alternativas, também determinei 0 como o comando para encerrar o programa., por fim criei um bloco para caso o usuário digitasse o numero errado ou alguma outra informação diferente do definido. E assim encerrei o menu desse programa.
 
+:heavy_check_mark: main finalizado;
+
 <a href="#top">Voltar para o topo</a>
