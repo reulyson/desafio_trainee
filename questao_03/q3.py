@@ -28,6 +28,5 @@ def proporcao():
     print("A proporção do setor de serviços pelo total em porcentagem é: ", resultado_porcentagem)
 
     with open('questao_03/saida_q3.txt', 'w', encoding='utf-8') as file:
-        file.write(f"A proporção do setor de serviços pelo total em valores é:{resultado_valores}\n A proporção do setor de serviços pelo total em porcentagem é:{resultado_porcentagem}")
+        file.write(f"A proporção do setor de serviços pelo total em valores é:{resultado_valores}\nA proporção do setor de serviços pelo total em porcentagem é:{resultado_porcentagem}")
     file.close()
-    
