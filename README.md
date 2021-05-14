@@ -19,9 +19,9 @@ A seguir as questões a serem respondidas a partir do dataset fornecido:
 2. Qual o ranking de estados por média de PIB per capita no ano de 2010? 
 3. Qual a proporção do valor adicionado bruto médio do setor de serviços em relação ao valor adicionado bruto total médio no estado do Amazonas no ano de 2018?
 
-###### Seguindo as observações de não poder usar bibliotecas numpy, pandas e etc
+###### Seguindo as observações de não poder usar bibliotecas numpy, pandas e etc.
 ###### Foi utilizado a versão do Python 3.9.5.
-###### O script foi desenvolvido usando o SO Windows 10
+###### O script foi desenvolvido usando o SO Windows 10.
 
 ## :white_check_mark: Q1 ##
 
