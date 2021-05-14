@@ -34,10 +34,16 @@ def ranking():
 #imprimindo o ranking
     print("2. Qual o ranking de estados por média de PIB per capita no ano de 2010?\n")
     print("Ranking de estados por média de PIB per capita no ano de 2010:")
-    for i, r in enumerate(dict_estados):
-        print(f'{i+1}° - {r}')
+    p = 0
+    for i, r in dict_estados.items():
+        p = p + 1
+        print('{}° - {} R${:.2f}'.format((p), i, r))
         
     with open('questao_02/saida_q2.txt', 'w', encoding='utf-8') as file:
         file.write("2.Qual o ranking de estados por média de PIB per capita no ano de 2010?\n")
-        file.write("Ranking de estados por média de PIB per capita no ano de 2010:\n{}".format(dict_estados))
+        file.write("Ranking de estados por média de PIB per capita no ano de 2010:\n")
+        p = 0
+        for i, r in dict_estados.items():
+            p = p+1
+            file.write("\n{}° - {} R${:.2f}\n".format(p, i, r))
     file.close()

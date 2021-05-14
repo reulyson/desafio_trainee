@@ -1,3 +1,56 @@
 2.Qual o ranking de estados por média de PIB per capita no ano de 2010?
 Ranking de estados por média de PIB per capita no ano de 2010:
-{'Distrito Federal': 56252.9, 'Rio de Janeiro': 27848.926630434766, 'Mato Grosso do Sul': 19915.6, 'Santa Catarina': 19597.2704095563, 'São Paulo': 19402.10993798449, 'Espírito Santo': 19297.533846153845, 'Rio Grande do Sul': 19072.48362903226, 'Mato Grosso': 16370.50475177304, 'Goiás': 15908.974065040653, 'Paraná': 15077.526892230575, 'Rondônia': 11860.909423076926, 'Minas Gerais': 11266.880785463072, 'Sergipe': 11049.777066666671, 'Amapá': 10136.118750000001, 'Roraima': 9582.176666666666, 'Tocantins': 9386.658992805762, 'Acre': 8344.13590909091, 'Pará': 7716.040279720281, 'Rio Grande do Norte': 7234.383892215569, 'Bahia': 6989.947146282979, 'Pernambuco': 6606.934486486487, 'Alagoas': 5980.695, 'Amazonas': 5788.658709677418, 'Paraíba': 5565.3534529147955, 'Ceará': 5384.548260869563, 'Maranhão': 4545.5377419354845, 'Piauí': 4533.857901785716}
+
+1° - Distrito Federal R$56252.90
+
+2° - Rio de Janeiro R$27848.93
+
+3° - Mato Grosso do Sul R$19915.60
+
+4° - Santa Catarina R$19597.27
+
+5° - São Paulo R$19402.11
+
+6° - Espírito Santo R$19297.53
+
+7° - Rio Grande do Sul R$19072.48
+
+8° - Mato Grosso R$16370.50
+
+9° - Goiás R$15908.97
+
+10° - Paraná R$15077.53
+
+11° - Rondônia R$11860.91
+
+12° - Minas Gerais R$11266.88
+
+13° - Sergipe R$11049.78
+
+14° - Amapá R$10136.12
+
+15° - Roraima R$9582.18
+
+16° - Tocantins R$9386.66
+
+17° - Acre R$8344.14
+
+18° - Pará R$7716.04
+
+19° - Rio Grande do Norte R$7234.38
+
+20° - Bahia R$6989.95
+
+21° - Pernambuco R$6606.93
+
+22° - Alagoas R$5980.69
+
+23° - Amazonas R$5788.66
+
+24° - Paraíba R$5565.35
+
+25° - Ceará R$5384.55
+
+26° - Maranhão R$4545.54
+
+27° - Piauí R$4533.86
