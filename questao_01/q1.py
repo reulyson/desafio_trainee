@@ -19,9 +19,11 @@ def media():
     media = sum(pib)/len(pib)
 
 #imprimido o calculo da média percapita
-    print("Média percapita de Manaus:\nR${:.2f}".format(media))
+    print("1. Qual o valor médio de PIB per capita da cidade de Manaus no período que abrange o dataset?\n")
+    print("Média percapita de Manaus: R${:.2f}".format(media))
 
 #criando arquivo de saida_q1 e escrevendo conteudo
     with open('questao_01/saida_q1.txt', 'w', encoding="utf-8") as file:
-        file.write("Média percapita de Manaus:\nR${:.2f}".format(media))
+        file.write("1.Qual o valor médio de PIB per capita da cidade de Manaus no período que abrange o dataset?\n")
+        file.write("Média percapita de Manaus: R${:.2f}".format(media))
     file.close()

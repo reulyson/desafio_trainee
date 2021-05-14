@@ -23,10 +23,11 @@ def proporcao():
 
     resultado_valores = (media_servico/media_total)
     resultado_porcentagem = "{:.2f}%".format(media_servico/media_total*100)
-
+    print("3. Qual a proporção do valor adicionado bruto médio do setor de serviços em relação ao valor adicionado bruto total médio no estado do Amazonas no ano de 2018?\n")
     print("A proporção do setor de serviços pelo total em valores é: ", resultado_valores)
     print("A proporção do setor de serviços pelo total em porcentagem é: ", resultado_porcentagem)
 
     with open('questao_03/saida_q3.txt', 'w', encoding='utf-8') as file:
+        file.write("3.Qual a proporção do valor adicionado bruto médio do setor de serviços em relação ao valor adicionado bruto total médio no estado do Amazonas no ano de 2018?\n")
         file.write(f"A proporção do setor de serviços pelo total em valores é:{resultado_valores}\nA proporção do setor de serviços pelo total em porcentagem é:{resultado_porcentagem}")
     file.close()

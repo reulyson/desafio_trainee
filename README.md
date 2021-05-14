@@ -1,4 +1,4 @@
-<h1 align="center">Desafio Treinee Bemol 2021</h1>
+<h1 align="center">Desafio Trainee Bemol 2021</h1>
 
 <p align="center">
   <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0; 
@@ -42,13 +42,13 @@ per_capita['2017']+per_capita['2018'])/(len(per_capita))
 print('A média per capita de manaus entre 2010 a 2018 foi {:.2f}'.format(media))
 ```
 
-Porém após pesquisar um pouco mais e revisar os vídeos do curso criei um script que percorre o arquivo do dataset para que pudesse filtrar os dados necessários. Desta maneira resolver o problema em si foi bem mais simples, criando uma lista para armazenar todos os valores per captos de cada ano de Manaus salvando a variável 'lib', depois somando cada um desses valores e dividindo pela quantidade de anos perdidos para assim chegar ao resultado esperado.
+Porém após pesquisar um pouco mais e revisar os vídeos do curso criei um script que percorre o arquivo do dataset para que pudesse filtrar os dados necessários. Desta maneira resolver o problema em si foi bem mais simples, criando uma lista para armazenar todos os valores per captos de cada ano de Manaus salvando a variável 'lib', depois somando cada um desses valores e dividindo pela quantidade de anos pedidos para assim chegar ao resultado esperado.
 
 :heavy_check_mark: q1 respondida;
 
 ## :white_check_mark: Q2 ##
 
-Antes de criar o script que seria realmente utilizado, eu criei um antes para entender a mecânica que eu deveria usar para criar o ranking, para esse teste eu usei o seguinte script. No teste importei duas bibliotecas do próprio python, random(randint) uma permitia que o computador gerasse números aleatórios e operator(itemgetter) me permitia chamar valores, e usando o comando sorted era possível ordenar esse dicionário, porém os números eram ordenados do menor para o maior, então usei reverse= para inverter os valores ordenados.
+Antes de criar o script que seria realmente utilizado, eu criei um outro anteriormente a esse, para entender a mecânica que eu deveria usar para criar o ranking, para esse teste eu usei o seguinte script: No teste importei duas bibliotecas do próprio python, random(randint) uma permitia que o computador gerasse números aleatórios e o operator(itemgetter) me permitia chamar valores, usando o comando sorted era possível ordenar esse dicionário, porém os números eram ordenados do menor para o maior, então usei reverse= para inverter os valores ordenados.
 
 ```python
 from random import randint
@@ -67,19 +67,19 @@ def ranking():
 ranking()
 ```
 
-Para a resolução eu utilizei a mesma premissa do da questão 1 para a média dos estados, e me basei no script acima para gerar o ranking, porém troquei a função itemgetter da biblioteca operator por lambda, que está também chamando o valor, porém o desafio pede que não se use bibliotecas na resolução do desafio (por mais que as bibliotecas padrões do python tivessem sido permitidas, optei por não utilizar). No final o resultado foi imprimido de forma correta. Porém nessa questão me deparei que nas saídas dos arquivos txt da questão, os nomes dos estados que possuíam acentos não estavam aparecendo, pesquisando um pouco encontrei que o SO Windows não imprime em arquivos strings com acentos, pois a representação de uma string como uma lista de pontos de código é abstrata então para decodificá-la usei então encoding='utf-8' resolvendo o problema.
+Para a resolução eu utilizei a mesma premissa da questão 1 para a média dos estados, e me basei no script acima para gerar o ranking, porém, troquei a função itemgetter da biblioteca operator por lambda, que está também chamando o valor, porém o desafio pede que não se use bibliotecas na resolução do desafio (por mais que as bibliotecas padrões do python tivessem sido permitidas, optei por não utilizar). No final o resultado foi impresso de forma correta. Porém nessa questão me deparei que nas saídas dos arquivos txt da questão, os nomes dos estados que possuíam acentos não estavam aparecendo, pesquisando um pouco encontrei que o SO Windows não imprime em arquivos strings com acentos, pois a representação de uma string como uma lista de pontos de código é abstrata então para decodificá-la usei então encoding='utf-8' resolvendo o problema.
 
 :heavy_check_mark: q2 respondida;
 
 ## :white_check_mark: Q3 ##
 
-Para resolver esta questão precisei utilizar a mesma dinâmica utilizada na primeira questão, o que me fez analisar que a primeira questão foi realmente a base para a resolução de todas as outras questões, pois todas pediram média de valores diferenciando alguns detalhes, o detalhe da questão três era mais em questão de pesquisa, precisei procurar por resoluções de proporção e criar uma lógica de pudesse funcionar no script. Então criei duas listas para armazenar os valores o valor de serviços e outra para armazenar o valor bruto total, logo depois criei as médias necessárias para a resolução final, que foi a proporção era equivalente a média dos serviços dividido pela média total, e me dei liberdade para criar uma porcentagem que mostrasse essa proporção.
+Para resolver esta questão precisei utilizar a mesma dinâmica utilizada na primeira, o que me fez analisar que a primeira questão foi realmente a base para a resolução de todas as outras questões, pois todas pediram média de valores diferenciando alguns detalhes, o detalhe da questão três era mais em questão de pesquisa, precisei procurar por resoluções de proporção e criar uma lógica que pudesse funcionar no script. Então criei duas listas para armazenar os valores o valor de serviços e outra para armazenar o valor bruto total, logo depois criei as médias necessárias para a resolução final, que foi a proporção que era equivalente a média dos serviços dividido pela média total, e me dei liberdade para criar uma porcentagem que mostrasse essa proporção.
 
 :heavy_check_mark: q3 respondida;
 
 ## :white_check_mark: Menu ##
 
-De início importei o cada uma das questões, e defini uma função chamada menu para ser chamada nos blocos de cada questão, os scripts das questões também foram definidos como função. Depois criei um loop que me permitia percorrer opções para cada questão e uma para encerrar o programa, para cada bloco  da questão fiz a chamada da função referente à questão escolhida e logo após a função menu para permitir seguir o loop, repetir isso para todas as outras alternativas, também determinei 0 como o comando para encerrar o programa., por fim criei um bloco para caso o usuário digitasse o numero errado ou alguma outra informação diferente do definido. E assim encerrei o menu desse programa.
+De início importei cada uma das questões, e defini uma função nomeada menu para ser chamada nos blocos de cada questão, os scripts das questões também foram definidos como função. Depois criei um loop que me permitia percorrer opções para cada questão e uma para encerrar o programa, para cada bloco  da questão fiz a chamada da função referente à questão escolhida e logo após a função menu para permitir seguir o loop, repetir isso para todas as outras alternativas, também determinei 0 como o comando para encerrar o programa. Por fim, criei um bloco para caso o usuário digitasse o numero errado ou alguma outra informação diferente do definido. E assim encerrei o menu desse programa.
 
 :heavy_check_mark: main finalizado;
 

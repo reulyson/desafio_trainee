@@ -1,2 +1,2 @@
-Média percapita de Manaus:
-R$32277.51
+1.Qual o valor médio de PIB per capita da cidade de Manaus no período que abrange o dataset?
+Média percapita de Manaus: R$32277.51
